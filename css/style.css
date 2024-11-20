@@ -24,8 +24,14 @@ nav ul {
 nav ul li {
     display: inline;
     padding: 0 15px;
+    
 }
-
+nav ul li :hover {
+    color: Green;
+}
+nav ul li :active{
+    color: darkgreen;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -44,4 +50,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+li.link:hover {
+color:green;
 }
