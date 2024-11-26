@@ -45,7 +45,7 @@ footer {
   bottom: 0;
 }
 
-h1, h2 {
+h1, h2{
   color: #D2691E; /* Warm brown */
 }
 a {
@@ -55,4 +55,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+p {
+  padding: 0px;
+  color: #D2691E;
+  font-weight: bold;
+  font-size: 10px;
+}
+img.interactive-image:hover {
+  height: 150px;
+  width: 300px;
 }
