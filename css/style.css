@@ -62,7 +62,40 @@ p {
   font-weight: bold;
   font-size: 10px;
 }
+li.facts {
+  color: #D2691E;
+  font-size: 30px;
+  padding: 35px;
+  font-weight: bold;
+}
+li.facts:hover {
+  color: red;
+  text-decoration: underline;
+}
+li p {
+  color: #D2691E;
+  font-size: 15px;
+}
+li p:hover {
+  color: red;
+}
+.history {
+  font-size: 25px;
+}
 img.interactive-image:hover {
-  height: 150px;
-  width: 300px;
+  height: 150px; 
+  width: 300px; 
+}
+.decor {
+  padding: 30px;
+  height: 250px;
+  width: 250px;
+}
+.decor:hover {
+  height:275px;
+  width: 275px;
+}
+.wall {
+ height: 562.5px;
+ width: 1000px;
 }
